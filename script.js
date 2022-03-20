@@ -77,8 +77,8 @@ const elementtinggi = document.querySelector('.tinggi')
 elementHitung.addEventListener('click',function(){
     let jarijari = Number(elementJari.value)
     let tinggi = Number(elementtinggi.value)
-   let  hasil = 3.14*jarijari*jarijari*tinggi
-   elementHasil.textContent = `${hasil}cm`
+    let  hasil = 3.14*jarijari*jarijari*tinggi
+    elementHasil.textContent = `${hasil}cm`
 
 
 })
